@@ -2,6 +2,15 @@ name = "share-admin"
 main = "worker.js"
 compatibility_date = "2024-11-21"
 
+routes = [
+  { pattern = "admin.linkfile.io/*", zone_name = "linkfile.io" }
+]
+
+[vars]
+SESSION_HMAC_SECRET = "koli"
+ADMIN_SETUP_TOKEN   = "koli"
+
+
 [[r2_buckets]]
 binding = "R2_BUCKET"
 bucket_name = "share"
