@@ -9,6 +9,7 @@ routes = [
 [vars]
 SESSION_HMAC_SECRET = "koli"
 ADMIN_SETUP_TOKEN   = "koli"
+SITE_NAME = "FileShare"
 
 
 [[r2_buckets]]
@@ -21,5 +22,4 @@ binding = "DB"
 database_name = "share"
 database_id = "3ed06692-b410-4822-8d6f-92c6d5a09d40"
 
-[vars]
-SITE_NAME = "FileShare"
+
