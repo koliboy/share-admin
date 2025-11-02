@@ -1,0 +1,16 @@
+name = "share-admin"
+main = "worker.js"
+compatibility_date = "2024-11-21"
+
+[[r2_buckets]]
+binding = "R2_BUCKET"
+bucket_name = "share"
+preview_bucket_name = "share"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "share"
+database_id = "3ed06692-b410-4822-8d6f-92c6d5a09d40"
+
+[vars]
+SITE_NAME = "FileShare"
